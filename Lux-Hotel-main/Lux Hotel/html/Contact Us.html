@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\css\Contact Us.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>About Us</title>
+  </head>
+  <body>
+
+    <!--
+    <div class="alert-succes">
+      <span>Message Sent! Thank you for contacting us.</span>
+    </div>
+
+    <div class="alert-error">
+        <span>Something went wrong!please try again.</span>
+      </div>
+    -->
+    <header>
+      <a href="#" class="brand">Lux Hotel</a>
+
+
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\index.html">Home</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Order Food.html">Order Meal</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\About Us.html">About</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Feedback.html">Feedback</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Contact Us.html">Contact</a>
+      </div>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+        <div class="contact-section">
+          <div class="contact-info">
+            <div ><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>Sovenga 0727,Turfloop,South Africa</div>
+            <div ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>luxhotelinfo@gmail.com</div>
+            <div ><i class="fa fa-phone fa-lg" aria-hidden="true"></i>+27 79862 9925</div>
+
+        </div>
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form class="contact" action="" method="post">
+            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+            <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+              <input type="submit" name="submit" class="send-btn" value="Send">
+
+
+          </form>
+        </div>
+
+      </div>
+      <script type="text/javascript">
+      //javascript for navigation bar effect on scroll
+      window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle('sticky', window.scrollY > 0);
+      });
+
+      //javascript for responsive navigation sidebar menu
+      var menu = document.querySelector('.menu');
+      var menuBtn = document.querySelector('.menu-btn');
+      var closeBtn = document.querySelector('.close-btn');
+
+      menuBtn.addEventListener("click", () => {
+        menu.classList.add('active');
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menu.classList.remove('active');
+      });
+      </script>
+
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\css\about us.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>About us</title>
+
+  </head>
+  <body>
+
+    <header>
+      <a href="#" class="brand">Lux Hotel</a>
+
+
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\index.html">Home</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Order Food.html">Order Meal</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\About Us.html">About</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Feedback.html">Feedback</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Contact Us.html">Contact</a>
+      </div>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+
+        <h1>About Us</h1>
+        <br>
+        <p>At lUX Hotel,we don’t want to simply offer a comfortable and affordable place to stay. Our vision is to ensure that every guest and visitor has an unforgettable and extraordinary experience. From our seamless app-based check-in and room access system, to our beautiful decor, we have spared no expense in making our hotels as unique and beautiful as possible. But we haven’t only invested in mind-blowing technology and beautiful design, more importantly, we have invested in great people. While facilities, technology, amenities and indulgences are important, what really gives Lux Hotel its heart is our incredible team of dedicated and passionate professionals. Individuals who live and breathe the Hotel Sky dream. Your dream. Our reality.</p>
+      </div>
+
+
+    </div>
+    <script type="text/javascript">
+    //javascript for navigation bar effect on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    //javascript for responsive navigation sidebar menu
+    var menu = document.querySelector('.menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove('active');
+    });
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>Order Food</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\css\Order Food.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  </head>
+  <body>
+
+
+
+    <header>
+      <a href="#" class="brand">Lux Hotel</a>
+
+
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\index.html">Home</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Order Food.html">Order Meal</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\About Us.html">About</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Feedback.html">Feedback</a>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Contact Us.html">Contact</a>
+      </div>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+    <br>
+
+<section class="items">
+  <div class="item">
+
+    <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 1.jpg" >
+    <h4>Meal 1 </h4>
+
+    <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+
+  </div>
+  <div class="item">
+
+    <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 2.jpg" >
+    <h4>Meal 2</h4>
+        <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+
+    </div>
+    <div class="item">
+
+      <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 3.jpg" >
+      <h4>Meal 3</h4>
+          <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+
+      </div>
+      <div class="item">
+
+        <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 4.jpg" >
+        <h4>Meal 4</h4>
+            <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+
+        </div>
+
+
+
+        <div class="item">
+
+          <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 6.jpg" >
+          <h4>Meal 6</h4>
+            <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+          </div>
+
+          <div class="item">
+
+            <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 7.jpg" >
+            <h4>Meal 7</h4>
+                <a href=""><button type="button" name="button">Order</button></a>
+            </div>
+            <div class="item">
+
+              <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 8.jpg" >
+              <h4>Meal 8</h4>
+                <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+              </div>
+              <div class="item">
+
+                <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 9.jpg" >
+                <h4>Meal 9</h4>
+                  <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+                </div>
+                <div class="item">
+
+                  <img src="C:\Users\madzi\3D Objects\GROUP 35 FINAL\images\Meal 10.jpg" >
+                  <h4>Meal 10</h4>
+                      <a href="C:\Users\madzi\3D Objects\GROUP 35 FINAL\html\Payment.html"><button type="button" name="button">Order</button></a>
+                  </div>
+                  <div class="item">
+
+
+
+
+
+</section>
+
+<script type="text/javascript">
+//javascript for navigation bar effect on scroll
+window.addEventListener("scroll", function(){
+  var header = document.querySelector("header");
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
+
+//javascript for responsive navigation sidebar menu
+var menu = document.querySelector('.menu');
+var menuBtn = document.querySelector('.menu-btn');
+var closeBtn = document.querySelector('.close-btn');
+
+menuBtn.addEventListener("click", () => {
+  menu.classList.add('active');
+});
+
+closeBtn.addEventListener("click", () => {
+  menu.classList.remove('active');
+});
+</script>
+
+
+  </body>
+</html>
